@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+* {
+	font-family: "Rubik Dirt", cursive;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: black;
+	color: aliceblue;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5rem;
+}
+
+#output {
+	border: 1px solid black;
+	height: 10vh;
+	width: 65%;
+	margin: 2rem auto;
+	padding: 1rem;
+}
+
+textarea {
+	height: 5rem;
+	width: 65%;
+	display: block;
+	margin: 2rem auto;
+	padding: 1rem;
+	background-color: aliceblue;
+}
+
+#btn-translate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3rem;
+	margin: auto;
+	width: 10rem;
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 20px;
+}
+
+#btn-translate:hover {
+	cursor: pointer;
+	background-color: black;
+	color: red;
+}
+
+#translate-output {
+	padding: 1rem;
+	border: 1px solid;
+	margin: 1rem auto;
+	box-sizing: border-box;
+	width: 65%;
+	min-height: 15vh;
+	max-height: 20vh;
+	background-color: aliceblue;
+}
+
+#output-container {
+	display: flex;
+	justify-content: center;
+	font-size: x-large;
+}
